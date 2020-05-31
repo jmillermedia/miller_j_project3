@@ -1,0 +1,18 @@
+Header:
+Logo: 160x160
+Main Nav: 782x50px
+
+About Us Text: 745x460
+About Us Hero: 745x460
+
+Awards:
+Award Emblems: 150x150
+Award Writeup: 330x270
+
+FAQ:
+Writeup: 745x785
+Hero: 745x206
+
+Footer:
+Logo: 450x115
+Social Media: 280x50

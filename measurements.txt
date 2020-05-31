@@ -2,8 +2,8 @@ Header:
 Logo: 160x160
 Main Nav: 782x50px
 
-About Us Text: 745x460
-About Us Hero: 745x460
+About Us Text: 590x330
+About Us Hero: 590x330
 
 Awards:
 Award Emblems: 150x150

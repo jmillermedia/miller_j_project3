@@ -4,6 +4,10 @@ body {
 	font-family: arial, sans-serif;
 }
 
+p {
+	text-align: center;
+}
+
 .hidden {
 	display: none;
 }
@@ -26,6 +30,7 @@ body {
 	width: 150px;
 	height: 150px;
 	align-self: center;
+	margin-left: 41px;
 }
 
 #mainNav {
@@ -38,10 +43,13 @@ body {
 }
 
 #title {
+	margin: 0px auto;
 	background-color: black;
 	color: white;
 	margin-top: 41px;
 	margin-bottom: 41px;
+	width: 300px;
+	height: 30px
 }
 
 #aboutSection1 {
@@ -55,6 +63,7 @@ body {
 	height: 316px;
 	background-color: black;
 	color: white;
+	order: 1;
 }
 
 #aboutUsText {
@@ -68,7 +77,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items:  center;
+	align-items: center;
 }
 
 #awardEmblems {
@@ -79,7 +88,7 @@ body {
 	justify-content: space-around;
 }
 
-#awardEmblem {
+.awardEmblem {
 	width: 150px;
 	height: 150px;
 	background-color: black;
@@ -87,9 +96,55 @@ body {
 	margin-bottom: 41px;
 }
 
-#awardWriteup {
+.awardWriteup {
 	height: 330px;
 	width: 270px;
 	background-color: black;
 	color: white;
+}
+
+footer {
+	display: flex;
+	padding: 16px;
+}
+
+#FAQ {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 41px;
+}
+
+#FAQTitle {
+	margin-right: auto;
+}
+
+#FAQheroImage {
+	width: 560px;
+	height: 315px;
+	color: white;
+	background-color: black;
+}
+
+#FAQWriteup {
+	width: 600px;
+	height: 500px;
+	color: white;
+	background-color: black;
+}
+
+#typefaceLogo {
+	width: 250px;
+	height: 60px;
+	background-color: black;
+	color: white;
+}
+
+#socialMedia {
+	width: 280px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	margin-left: auto;
 }

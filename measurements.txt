@@ -11,8 +11,8 @@ Award Writeup: 330x270
 
 FAQ:
 Writeup: 745x785
-Hero: 745x206
+Hero: 590x330
 
 Footer:
-Logo: 450x115
+Logo: 250x115
 Social Media: 280x50

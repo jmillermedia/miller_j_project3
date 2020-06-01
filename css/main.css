@@ -1,5 +1,151 @@
 /* CSS STYLESHEET START */
 
+body {
+	font-family: arial, sans-serif;
+}
+
+p {
+	text-align: center;
+	padding: 10px;
+}
+
 .hidden {
 	display: none;
+}
+
+#mainHeader {
+	display: flex;
+	flex-direction: row;
+	height: 160px;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: lightgrey;
+}
+
+#logo {
+	color: white;
+	background-color: black;
+	width: 150px;
+	height: 150px;
+	align-self: center;
+	margin-left: 41px;
+}
+
+#mainNav {
+	color: white;
+	background-color: black;
+	width: 780px;
+	height: 50px;
+	align-self: center;
+	margin-left: auto;
+}
+
+#pageTitle {
+	margin: 0px auto;
+	background-color: black;
+	color: white;
+	margin-top: 41px;
+	margin-bottom: 41px;
+	width: 300px;
+	height: 30px
+}
+
+#aboutSection1 {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 41px;
+}
+
+#heroImage {
+	width: 560px;
+	height: 316px;
+	background-color: black;
+	color: white;
+	order: 1;
+}
+
+#aboutUsText {
+	width: 560px;
+	height: 316px;
+	background-color: black;
+	color: white;
+}
+
+.awardPicWriteup {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#awardEmblems {
+	margin-top: 41px;
+	margin-bottom: 41px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.awardEmblem {
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	color: white;
+	margin-bottom: 41px;
+}
+
+.awardWriteup {
+	height: 330px;
+	width: 270px;
+	background-color: black;
+	color: white;
+}
+
+footer {
+	display: flex;
+	padding: 16px;
+}
+
+#FAQ {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 41px;
+}
+
+#FAQTitle {
+	margin-right: auto;
+}
+
+#FAQheroImage {
+	width: 560px;
+	height: 315px;
+	color: white;
+	background-color: black;
+}
+
+#FAQWriteup {
+	width: 600px;
+	height: 500px;
+	color: white;
+	background-color: black;
+}
+
+#typefaceLogo {
+	width: 250px;
+	height: 60px;
+	background-color: black;
+	color: white;
+}
+
+#socialMedia {
+	width: 280px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	margin-left: auto;
 }

@@ -1,7 +1,15 @@
-# Jonathan Miller's Project 3 - Web Development 1
+# Jonathan Miller's Project 5 - Web Development 1
 
-## Description:
-Repo for the Project containing all elements required.
+## Assignment Description:
+You	are responsible for building a mobile first responsive web page/template using Flexbox and or the CSS grid.	
+## Assignment Requirements:
+The objective is to create a responsive boxed out version of one of the wireframes you created for the final integrated assignment. Your HTML5 and CSS file must validate.	Semantic	tagging	is	required.		
+### Web Page
+-1 page
+-Semantic HTML 5 tagging
+-Link to CSS file, JS File and Reset	
+-Valid HTML5 & CSS	
+-Proper Document Outline
 
 ## Installation:
 There is no installation process for this repo. Simply pull down and enjoy.

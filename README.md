@@ -6,9 +6,13 @@ You	are responsible for building a mobile first responsive web page/template usi
 The objective is to create a responsive boxed out version of one of the wireframes you created for the final integrated assignment. Your HTML5 and CSS file must validate.	Semantic	tagging	is	required.		
 ### Web Page
 -1 page
+
 -Semantic HTML 5 tagging
+
 -Link to CSS file, JS File and Reset	
+
 -Valid HTML5 & CSS	
+
 -Proper Document Outline
 
 ## Installation:

@@ -1,4 +1,4 @@
-/* CSS STYLESHEET START */
+/* Main Setup Start */
 
 body {
 	font-family: arial, sans-serif;
@@ -20,27 +20,48 @@ p {
 }
 
 #wrapper {
-	width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: lightgrey;
 }
 
 #logo {
+	position: absolute;
 	color: white;
-	background-color: black;
+	background-color: rgb(109, 109, 109);
 	width: 150px;
 	height: 150px;
-	align-self: center;
-	margin-left: 41px;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: 32px;
+	z-index: 1;
+}
+
+.burgerNav {
+	position: absolute;
+	margin-left: 32px;
+	margin-top: 16px;
+	cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+	width: 35px;
+	height: 3px;
+	background-color: rgb(160, 160, 160);
+	margin: 6px 0;
+	border-radius: 50px;
+	z-index: 1;
 }
 
 #mainNav {
+	position: relative;
 	color: white;
 	background-color: black;
-	width: 780px;
-	height: 50px;
+	width: 100%;
+	height: 160px;
 	align-self: center;
 	margin-left: auto;
+	margin-top: 0;
 }
 
 #pageTitle {
@@ -53,25 +74,31 @@ p {
 	height: 30px
 }
 
+
 #aboutSection1 {
+	width: 100%;
+	margin: 0px auto;
 	display: flex;
-	justify-content: space-around;
-	margin-bottom: 41px;
+	flex-direction: column;
+	
 }
 
 #heroImage {
-	width: 560px;
-	height: 316px;
+	width: 280px;
+	height: 158px;
 	background-color: black;
 	color: white;
-	order: 1;
+	order: 0;
+	margin: 0px auto;
 }
 
 #aboutUsText {
-	width: 560px;
-	height: 316px;
+	width: 280px;
+	height: 300px;
 	background-color: black;
 	color: white;
+	margin: 0px auto;
+	margin-top: 32px;
 }
 
 .awardPicWriteup {
@@ -79,13 +106,25 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: 32px;
+}
+
+#awardSection h2 {
+		margin: 0px auto;
+		background-color: black;
+		color: white;
+		margin-top: 41px;
+		/* margin-bottom: 41px; */
+		width: 300px;
+		height: 30px;
+		text-align: center;
 }
 
 #awardEmblems {
 	margin-top: 41px;
 	margin-bottom: 41px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 }
 
@@ -111,7 +150,7 @@ footer {
 
 #FAQ {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 41px;
@@ -122,17 +161,24 @@ footer {
 }
 
 #FAQheroImage {
-	width: 560px;
+	width: 75%;
 	height: 315px;
 	color: white;
 	background-color: black;
 }
 
 #FAQWriteup {
-	width: 600px;
+	width: 75%;
 	height: 500px;
 	color: white;
 	background-color: black;
+	margin-top: 16px;
+}
+
+#mainFooter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #typefaceLogo {
@@ -140,6 +186,7 @@ footer {
 	height: 60px;
 	background-color: black;
 	color: white;
+	margin: 0 auto;
 }
 
 #socialMedia {
@@ -147,5 +194,319 @@ footer {
 	height: 50px;
 	background-color: black;
 	color: white;
-	margin-left: auto;
+	margin: 0 auto;
+	margin-top: 16px;
+}
+
+/* Main setup end */
+
+
+
+@media screen and (min-width: 900px) {
+	.burgerNav {
+		display: none;
+	}
+
+	#mainHeader {
+		display: flex;
+		flex-direction: row;
+		height: 160px;
+	}
+
+	#wrapper {
+		width: 100%;
+		margin: 0 auto;
+		background-color: lightgrey;
+	}
+
+	#logo {
+		position: initial;
+		color: white;
+		background-color: black;
+		width: 150px;
+		height: 150px;
+		align-self: center;
+		margin-left: 41px;
+	}
+
+	#mainNav {
+		color: white;
+		background-color: black;
+		width: 700px;
+		height: 50px;
+		align-self: center;
+		margin-left: auto;
+	}
+
+	#pageTitle {
+		margin: 0px auto;
+		background-color: black;
+		color: white;
+		margin-top: 41px;
+		margin-bottom: 41px;
+		width: 300px;
+		height: 30px
+	}
+
+	#aboutSection1 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-bottom: 41px;
+		margin: 0px auto;
+	}
+
+	#heroImage {
+		width: 400px;
+		height: 300px;
+		background-color: black;
+		color: white;
+		order: 0;
+	}
+
+	#aboutUsText {
+		width: 400px;
+		height: 300px;
+		background-color: black;
+		color: white;
+		margin-top: 0;
+	}
+
+	.awardPicWriteup {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#awardEmblems {
+		margin-top: 41px;
+		margin-bottom: 41px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.awardEmblem {
+		width: 150px;
+		height: 150px;
+		background-color: black;
+		color: white;
+		margin-bottom: 41px;
+	}
+
+	.awardWriteup {
+		height: 330px;
+		width: 270px;
+		background-color: black;
+		color: white;
+	}
+
+	footer {
+		display: flex;
+		padding: 16px;
+	}
+
+	#FAQ {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 41px;
+	}
+
+	#FAQTitle {
+		margin-right: auto;
+	}
+
+	#FAQheroImage {
+		width: 400px;
+		height: 226px;
+		color: white;
+		background-color: black;
+	}
+
+	#FAQWriteup {
+		width: 400px;
+		height: 333px;
+		color: white;
+		background-color: black;
+	}
+
+	#mainFooter {
+		display: flex;
+		flex-direction: row;
+		/* justify-content: space-between; */
+		margin: 0 auto;
+	}
+
+	#typefaceLogo {
+		width: 250px;
+		height: 60px;
+		background-color: black;
+		color: white;
+		margin-left: 0;
+	}
+
+	#socialMedia {
+		width: 280px;
+		height: 50px;
+		background-color: black;
+		color: white;
+		margin-right: 0;
+	}
+}
+/* Desktop Media Query */
+@media screen and (min-width: 1200px) {
+
+	.burgerNav {
+		display: none;
+	}
+
+	#mainHeader {
+		display: flex;
+		flex-direction: row;
+		height: 160px;
+	}
+
+	#wrapper {
+		width: 1200px;
+		margin: 0 auto;
+		background-color: lightgrey;
+	}
+
+	#logo {
+		position: initial;
+		color: white;
+		background-color: black;
+		width: 150px;
+		height: 150px;
+		align-self: center;
+		margin-left: 41px;
+	}
+
+	#mainNav {
+		color: white;
+		background-color: black;
+		width: 780px;
+		height: 50px;
+		align-self: center;
+		margin-left: auto;
+	}
+
+	#pageTitle {
+		margin: 0px auto;
+		background-color: black;
+		color: white;
+		margin-top: 41px;
+		margin-bottom: 41px;
+		width: 300px;
+		height: 30px
+	}
+
+	#aboutSection1 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-bottom: 41px;
+		margin: 0px auto;
+	}
+
+	#heroImage {
+		display: inline;
+		width: 560px;
+		height: 316px;
+		background-color: black;
+		color: white;
+		order: 0;
+	}
+
+	#aboutUsText {
+		width: 560px;
+		height: 316px;
+		background-color: black;
+		color: white;
+		margin-top: 0;
+	}
+
+	.awardPicWriteup {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#awardEmblems {
+		margin-top: 41px;
+		margin-bottom: 41px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.awardEmblem {
+		width: 150px;
+		height: 150px;
+		background-color: black;
+		color: white;
+		margin-bottom: 41px;
+	}
+
+	.awardWriteup {
+		height: 330px;
+		width: 270px;
+		background-color: black;
+		color: white;
+	}
+
+	footer {
+		display: flex;
+		padding: 16px;
+	}
+
+	#FAQ {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 41px;
+	}
+
+	#FAQTitle {
+		margin-right: auto;
+	}
+
+	#FAQheroImage {
+		width: 560px;
+		height: 315px;
+		color: white;
+		background-color: black;
+	}
+
+	#FAQWriteup {
+		width: 600px;
+		height: 500px;
+		color: white;
+		background-color: black;
+	}
+
+	.mainFooter {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#typefaceLogo {
+		width: 250px;
+		height: 60px;
+		background-color: black;
+		color: white;
+	}
+
+	#socialMedia {
+		width: 280px;
+		height: 50px;
+		background-color: black;
+		color: white;
+	}
 }
